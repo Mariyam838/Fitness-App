@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Meal Image -->
+        <ImageView
+            android:id="@+id/imgMeal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Meal Title -->
+        <TextView
+            android:id="@+id/tvMealTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meal Title"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Uses -->
+        <TextView
+            android:id="@+id/tvMealUses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purpose of the meal"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Recipe -->
+        <TextView
+            android:id="@+id/tvMealRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Ingredient 1\n• Ingredient 2\n• Step here"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Calories -->
+        <TextView
+            android:id="@+id/tvMealCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories: 000"
+            android:textColor="#FF5555"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

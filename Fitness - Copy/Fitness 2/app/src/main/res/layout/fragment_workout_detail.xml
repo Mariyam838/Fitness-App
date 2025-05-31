@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Header Image -->
+        <ImageView
+            android:id="@+id/ivWorkoutImage"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/pushup"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvWorkoutTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Push Up"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Sub Info -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 Tutorials • 60 Minutes"
+            android:textColor="#AAAAAA"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvWorkoutDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Push ups build upper body muscles like chest, arms, and core..."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="30dp" />
+
+        <!-- Start Button -->
+        <Button
+            android:id="@+id/btnStartTraining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Training"
+            android:backgroundTint="#FF6600"
+            android:textColor="#FFFFFF" />
+
+        <!-- Videos -->
+        <LinearLayout
+            android:id="@+id/videoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <!-- Video Block 1 -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp">
+
+                <VideoView
+                    android:id="@+id/video1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/thumbnail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thumb_pushup1" />
+
+                <ImageView
+                    android:id="@+id/playButton1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_play_circle"
+                    android:tint="@android:color/white"
+                    android:contentDescription="Play" />
+            </FrameLayout>
+
+            <!-- Video Block 2 -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp">
+
+                <VideoView
+                    android:id="@+id/video2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/thumbnail2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thumb_pushup2" />
+
+                <ImageView
+                    android:id="@+id/playButton2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_play_circle"
+                    android:tint="@android:color/white"
+                    android:contentDescription="Play" />
+            </FrameLayout>
+
+            <!-- Video Block 3 -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <VideoView
+                    android:id="@+id/video3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/thumbnail3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thumb_pushup3" />
+
+                <ImageView
+                    android:id="@+id/playButton3"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_play_circle"
+                    android:tint="@android:color/white"
+                    android:contentDescription="Play" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

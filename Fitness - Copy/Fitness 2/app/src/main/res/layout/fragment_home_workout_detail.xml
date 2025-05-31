@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- Workout Image -->
+    <ImageView
+        android:id="@+id/imgDetailWorkout"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Title Row with Heart -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvWorkoutTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Push Up"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/btnFavoriteHeart"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_favorite"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/tvWorkoutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push-ups help build upper body strength and core."
+        android:textColor="#CCCCCC"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Start Training Button -->
+    <Button
+        android:id="@+id/btnStartTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Training"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF5722" />
+</LinearLayout>

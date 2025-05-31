@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fitness.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/nav_workout"
+        android:name="com.example.fitness.WorkoutFragment"
+        android:label="Workout" />
+
+    <fragment
+        android:id="@+id/nav_nutrition"
+        android:name="com.example.fitness.NutritionFragment"
+        android:label="Nutrition" />
+
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.example.fitness.ProgressFragment"
+        android:label="Progress" />
+
+    <fragment
+        android:id="@+id/nav_goals"
+        android:name="com.example.fitness.GoalsFragment"
+        android:label="Goals" />
+</navigation>

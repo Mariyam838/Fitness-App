@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Fitness" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme colors if needed -->
+        <!-- <item name="colorPrimary">@color/your_primary_color</item> -->
+    </style>
+
+    <!-- Your app theme -->
+    <style name="Theme.Fitness" parent="Base.Theme.Fitness" />
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎯 Set Goals &amp; Reminders"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etStepGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Steps per day"
+            android:textColorHint="#BBBBBB"
+            android:textColor="#FFFFFF"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/etWorkoutDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Workout days per week"
+            android:textColorHint="#BBBBBB"
+            android:textColor="#FFFFFF"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FFFFFF" />
+
+        <Switch
+            android:id="@+id/switchWaterReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💧 Water Reminder"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp" />
+
+        <Switch
+            android:id="@+id/switchWorkoutReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏋️ Workout Reminder"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSaveGoals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#956748"
+            android:text="Save Goals &amp; Reminders"
+            android:textColor="#FFFFFF" />
+
+        <Switch
+            android:id="@+id/switchTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌗 Enable Dark Mode"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+</ScrollView>

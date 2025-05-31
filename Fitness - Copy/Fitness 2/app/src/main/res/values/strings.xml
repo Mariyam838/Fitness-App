@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Fitness</string>
+
+    <!-- Splash / Login / Main -->
+    <string name="welcome_main">Welcome to FitBody!</string>
+    <string name="welcome_user_placeholder">Welcome, %1$s!</string>
+    <string name="workout_plans">🏋️ Workout Plans</string>
+    <string name="nutrition_tracker">🥗 Nutrition Tracker</string>
+    <string name="progress_tracker">📊 Progress Tracker</string>
+    <string name="set_goals">🎯 Set Goals &amp; Reminders</string>
+    <string name="logout">🚪 Logout</string>
+
+    <!-- Goals Fragment -->
+    <string name="set_goals_title">Set Your Fitness Goals</string>
+    <string name="hint_steps">Steps per day</string>
+    <string name="hint_workout_days">Workout days per week</string>
+    <string name="remind_water">💧 Water Reminder</string>
+    <string name="remind_workout">🏋️ Workout Reminder</string>
+    <string name="save_goals">Save Goals &amp; Reminders</string>
+    <string name="enable_dark">🌗 Enable Dark Mode</string>
+
+    <!-- Workout Fragment -->
+    <string name="choose_workout">Choose Your Workout</string>
+    <string name="full_body">💪 Full Body Workout</string>
+    <string name="cardio">🏃 Cardio Session</string>
+    <string name="yoga">🧘 Yoga &amp; Flexibility</string>
+
+    <!-- Nutrition Fragment -->
+    <string name="log_meals">Log Your Meals</string>
+    <string name="breakfast">🍳 Breakfast</string>
+    <string name="lunch">🍝 Lunch</string>
+    <string name="dinner">🍲 Dinner</string>
+    <string name="snacks">🍪 Snacks</string>
+
+    <!-- Progress Fragment -->
+    <string name="your_progress">Your Progress</string>
+    <string name="weight_sample">Weight: 72 kg → 68 kg</string>
+    <string name="steps_sample">Steps this week: 45,000</string>
+    <string name="calories_sample">Calories burned: 3,600 kcal</string>
+    <string name="water_sample">Water Intake: 14L this week</string>
+
+</resources>

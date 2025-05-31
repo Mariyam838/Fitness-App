@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_workout"
+        android:icon="@drawable/ic_fitness"
+        android:title="Workout" />
+
+    <item
+        android:id="@+id/nav_nutrition"
+        android:icon="@drawable/ic_food"
+        android:title="Nutrition" />
+
+
+    <item
+        android:id="@+id/nav_favourites"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favourites" />
+
+
+
+    <item
+        android:id="@+id/nav_goals"
+        android:icon="@drawable/ic_goal"
+        android:title="Goals" />
+
+</menu>
